@@ -13,3 +13,10 @@ Photo by <a href="https://unsplash.com/@ritambaishya?utm_source=unsplash&utm_med
 Photo by <a href="https://unsplash.com/@albcox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alberto Cocchi</a> on <a href="https://unsplash.com/s/photos/rain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@enginakyurt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">engin akyurt</a> on <a href="https://unsplash.com/photos/ORZY095Y9fM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Thunderstorm: ⛈️,
+Drizzle: 🌧️,
+Rain: 🌧️,
+Snow: ❄️,
+Clear: ☀️,
+Clouds: ☁️,
