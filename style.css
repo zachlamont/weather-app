@@ -1,3 +1,100 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  height: 100vh;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p {
+  color: white;
+  font-size: large;
+  font-weight: 300;
+  margin: 0px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+h2 {
+  color: white;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.table-item {
+  color: rgba(255, 255, 255, 0.704);
+  font-size: normal;
+  font-weight: 300;
+}
+.temperature {
+  font-size: 3em;
+  margin: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 5px rgba(0, 0, 0, 0.1); /* add outer and subtle inner shadow */
+  margin-top: 10vh;
+}
+
+.search-bar:focus {
+  outline: none;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 0, 0, 0.2); /* update shadow on focus */
+}
+
+.forecastRow {
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.147);
+  padding: 10px;
+}
+
+.table-item {
+  width: 20%;
+}
+
+#weatherData {
+  margin: 20px;
+}
+#forecastData {
+  background-color: rgba(0, 0, 0, 0.216);
+  padding: 2em;
+  border-radius: 1em;
+  min-width: 380px;
+  width: 50%;
+  max-width: 500px;
+}
+.day-name {
+  width: 40%;
+  color: white;
+  font-weight: 300;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.icon {
+  margin-bottom: -7px;
+}
+.min {
+  color: rgba(153, 191, 252, 0.796);
+}
+.max {
+  color: rgba(255, 209, 169, 0.787);
 }
