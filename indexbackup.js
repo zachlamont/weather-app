@@ -4,19 +4,10 @@ const apiKey = "f406505da8c169dd39c0d2bbe2b2a93f";
 const dayCnt = "40";
 const form = document.getElementById("cityForm");
 const weatherData = document.getElementById("weatherData");
-let city = "Sydney";
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
-  city = document.getElementById("cityInput").value;
-  displayWeather();
-});
-
-window.addEventListener("load", async () => {
-  displayWeather();
-});
-
-async function displayWeather() {
+  const city = document.getElementById("cityInput").value;
   const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
   const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&cnt=${dayCnt}&appid=${apiKey}`;
   try {
@@ -61,7 +52,8 @@ async function displayWeather() {
       const backgroundImage =
         weatherImages[weatherInfo.weather[0].main] || weatherImages.Clear;
       document.body.style.backgroundImage = `url(images/${backgroundImage})`;
-      console.log(`url(images/${backgroundImage})`);
+console.log(`url(images/${backgroundImage})`);
+
 
       // Display forecast data
       displayForecastData(forecastData);
@@ -85,7 +77,7 @@ async function displayWeather() {
     weatherData.innerHTML = "";
     weatherData.appendChild(errorContainer);
   }
-}
+});
 
 function displayForecastData(data) {
   const forecastData = document.getElementById("forecastData");

@@ -20,3 +20,5 @@ Rain: 🌧️,
 Snow: ❄️,
 Clear: ☀️,
 Clouds: ☁️,
+
+
